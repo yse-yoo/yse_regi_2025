@@ -20,11 +20,6 @@ $message = "通常メッセージ";
 
 <body class="bg-gray-200 flex justify-center items-center min-h-screen">
     <div class="bg-white rounded p-6 shadow-md w-full max-w-md">
-        <div id="errors" class="mb-4">
-            <ul>
-                <li class="text-red-600"><?= $error ?></li>
-            </ul>
-        </div>
 
         <div class="text-gray-700 mb-4">
             <?= $message ?>
